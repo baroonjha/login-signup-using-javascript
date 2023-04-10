@@ -1,0 +1,47 @@
+*{
+    background-color: #d8c7c7;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size:18px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+
+.box{
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+.btn{
+    border-radius: 7px;
+    border: 2px solid black;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.btn:active{
+    cursor:progress;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    
+}
